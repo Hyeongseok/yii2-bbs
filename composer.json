@@ -1,0 +1,29 @@
+{
+  "name": "hyeongseok/yii2-bbs",
+  "description": "The Bullentin Board System For Yii2",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hyeongseok Kang",
+      "email": "romanze76@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "hyeongseok\\bbs\\": ""
+    }
+  },
+  "extra": {
+    "bootstrap": "hyeongseok\\bbs\\Bootstrap",
+    "branch-alias": {
+      "dev-master": "0.1.x-dev",
+      "dev-develop": "0.1.x-dev"
+    },
+    "asset-installer-paths": {
+      "npm-asset-library": "assets/vendor",
+      "bower-asset-library": "assets/vendor"
+    }
+  },
+  "minimum-stability": "dev"
+}

@@ -5,22 +5,29 @@ Yii2-bbs is the Bullentin Board System for Yii 2
 Requirements
 ------------
 
-Requires jQuery 1.8.x or higher.
+Requires jQuery 1.8.x.
 
-Requires jQuery UI.
+Requires jQuery UI 1.11.x. 
 
-##### Some plugins cannot be installed through [bower package manager](bower.io).
-##### Copy following plugin into assets/vendor/bower/{plugin-name}.
+Requires Plupload 2.1.x.
 
-Requires jQuery Highlight       [highlight](https://github.com/bartaz/sandbox.js/blob/master/jquery.highlight.js).
+Requires Backbone 1.2.1.
 
-Requires jQuery LiveQuery 1.3.6 [livequery](https://github.com/brandonaaron/livequery).
+Requires UnderScore 1.8.3.
 
-Requires jQuery TagCanvas 2.7   [tagcanvas](http://www.goat1000.com/jquery.tagcanvas.min.js?2.7).
+Requires Tinymce 4.1.x.
 
-Requires jQuery Timeago 1.4.1   [timeago](http://timeago.yarp.com/jquery.timeago.js).
 
-Requires TinyMce 4.1.10         [tinymce](http://download.moxiecode.com/tinymce/tinymce_4.1.10_jquery.zip).
+jQuery Plugins
+--------------
+
+jQuery Highlight       [highlight](https://github.com/bartaz/sandbox.js/blob/master/jquery.highlight.js).
+
+jQuery LiveQuery 1.3.6 [livequery](https://github.com/brandonaaron/livequery).
+
+jQuery TagCanvas 2.7   [tagcanvas](http://www.goat1000.com/jquery.tagcanvas.min.js?2.7).
+
+jQuery Timeago 1.4.1   [timeago](http://timeago.yarp.com/jquery.timeago.js).
 
 
 Installation
@@ -41,6 +48,17 @@ or add
 ```
 
 to the require section of your composer.json
+
+
+add bower packages
+
+```
+bower install jquery-ui
+bower install plupload
+bower install underscore
+bower install backbone
+bower install tinymce
+```
 
 
 Configuration
